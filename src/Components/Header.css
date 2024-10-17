@@ -1,0 +1,32 @@
+
+
+
+
+/* Only apply margin-start for xs screens */
+@media (max-width: 353px) {
+    .submit-button {
+        margin-left: 6.5rem;
+        margin-top: 10px;
+        /* equivalent to ms-5 */
+    }
+
+    .search-button {
+        margin-left: 1.3rem;
+
+    }
+}
+
+/* Remove margin for sm and above */
+@media (min-width: 320px) and (max-width:353px) {
+    .submit-button {
+      margin-top: 15px !important;
+    }
+}
+@media (min-width: 576px) and (max-width:768px) {
+    .search-button{
+        margin-top: 15px !important;
+    }
+    .submit-button {
+        margin-top: 15px !important;
+    }
+}

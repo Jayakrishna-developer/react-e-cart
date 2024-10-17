@@ -1,0 +1,81 @@
+/* Home.css */
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 350px;
+    background: #fff;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.custom-card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.custom-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.custom-card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.btn-light {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #e0e0e0;
+}
+
+@media (min-width: 340px) and (max-width:576px) {
+   .custom-card{
+    width: 18rem;
+
+   }
+}
+@media (min-width: 350px) and (max-width:399px) {
+    .custom-card {
+
+        margin-left: 30px;
+
+    }
+}
+@media (min-width: 400px) and (max-width:450px) {
+    .custom-card {
+       
+        margin-left:50px ;
+
+    }
+}
+@media (min-width: 451px) and (max-width:500px) {
+    .custom-card {
+
+        margin-left: 80px;
+
+    }
+}
+@media (min-width: 501px) and (max-width:575px) {
+    .custom-card {
+
+        margin-left: 110px;
+
+    }
+}
